@@ -1,0 +1,83 @@
+body {
+    background-color: #f2f4f5 ;
+}
+/*fundo para links*/
+.cabeçalho {
+   justify-content: center;
+   align-items: center;
+   font-size: 20px;
+   height: 70px;
+   padding-right: 30px;
+   background-color: #444346;
+   display: flex;
+    }
+
+/*formatação dos links*/
+.cabeçalho > a {
+    color: whitesmoke;
+     padding-left: 50px;
+     text-decoration: none;
+}
+a.BLACK{
+    color: whitesmoke;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Myname {
+    color: #444346;;
+    text-align: center;
+    font-size: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+a.social{
+    color: #444346;
+    font-weight: bold;
+}
+/*titulo destaque da minha pagina*/
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: gray;
+    text-align: center;
+}
+
+/*meus subtitulos*/
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: whitesmoke;
+    background-color: #444346;
+    width: 100%;
+    text-align: center;
+}
+/*textos dos meus subtitulos*/
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: black;
+}
+/*minhas habilidades*/
+dt{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color:  #444346;
+    font-weight: bold;
+}
+/*descrevendo minhas habilidades*/
+dd{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+.coluna{
+    float: none;
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+ 

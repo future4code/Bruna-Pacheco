@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  
+  /* estilo do header */
+  header {
+    grid-area: header;
+    background-color:	#ffffff;
+    padding: 20px;
+    text-align: center;
+    font-size: 15px;
+    color:#272626;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* layout dos links navegaveis */
+  nav {
+    display:block;
+    background-color:#613a24;
+    padding: 14px 16px;        
+  }
+  nav a {
+    color: whitesmoke;
+    text-decoration: none;
+    margin: 20px;
+    }
+
+/* estilização do conteúdo */
+  .texto {
+      display: grid;
+    min-height: 100vh;
+    grid-template-columns: auto 40% auto;
+    }
+/* coluna 1 */
+    #mercado{
+      background-image: url(./img/melancia.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: rgb(27, 26, 26);
+    }
+    #mercado p{
+      font-size: larger;
+      text-align:center;
+      justify-content: right;
+      text-indent: 10pt;
+        }
+    #mercado h2 {
+      text-align: center;
+    }
+/* coluna meio */
+   #logo {
+     background-image: url(./img/logo.png);
+     background-repeat: no-repeat;
+   }
+/* coluna 3 */
+    #refeições {
+      background-image: url(./img/aspargobranco.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: #272626;
+    }
+    #refeições p {
+      font-size: larger;
+      text-align: center;
+      justify-content: right;
+      text-indent: 10pt;
+    }
+    #refeições h2 {
+      text-align: center;
+    }
+
+/* estilização do rodapé */
+footer {
+    grid-area: footer;
+    background-color:#613a24;
+    padding: 30px;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  nav {
+    display: grid;
+    flex-direction: column;
+  }
+ body{
+   font-size: 5px;
+   max-width: 100%;
+   max-height: 100%;
+ }
+}
+
+  
+
